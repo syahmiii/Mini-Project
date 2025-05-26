@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <!-- Centralize NuGet packages -->
+    <RestorePackagesPath>$(SolutionDir)packages</RestorePackagesPath>
+
+    <!-- Set default namespace, company, etc. -->
+    <Company>MyCompany</Company>
+    <Authors>Your Name</Authors>
+  </PropertyGroup>
+</Project>
