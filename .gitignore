@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS folder
+.vs/
+
+# Auto-generated files
+*.cache
+*.dbmdl
+*.log
+
+# Publish profiles
+*.pubxml
+*.publish.xml
+
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Optional NuGet packages folder
+packages/
+
+# Others
+*.nupkg
+*.snupkg
+*.DS_Store
+*.swp

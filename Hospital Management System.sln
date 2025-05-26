@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital Management System", "Hospital Management System.csproj", "{9D8D16DA-17FA-4E6C-895B-5A2AFC464D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital Management System", "Hospital Management System.csproj", "{9D8D16DA-17FA-4E6C-895B-5A2AFC464D6D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HospitalManagement.Databse", "..\Users\User\source\repos\Mini Project\HospitalManagement.Databse\HospitalManagement.Databse.sqlproj", "{F75827C5-1A17-46A6-ADA8-84578F2CB464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{9D8D16DA-17FA-4E6C-895B-5A2AFC464D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D8D16DA-17FA-4E6C-895B-5A2AFC464D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D8D16DA-17FA-4E6C-895B-5A2AFC464D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75827C5-1A17-46A6-ADA8-84578F2CB464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75827C5-1A17-46A6-ADA8-84578F2CB464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75827C5-1A17-46A6-ADA8-84578F2CB464}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F75827C5-1A17-46A6-ADA8-84578F2CB464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75827C5-1A17-46A6-ADA8-84578F2CB464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75827C5-1A17-46A6-ADA8-84578F2CB464}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
