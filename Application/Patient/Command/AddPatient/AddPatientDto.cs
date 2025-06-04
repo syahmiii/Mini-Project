@@ -1,4 +1,4 @@
-﻿namespace Hospital_Management_System.Application.Patient.Command
+﻿namespace Hospital_Management_System.Application.Patient.Command.AddPatient
 {
     public class AddPatientDto
     {
