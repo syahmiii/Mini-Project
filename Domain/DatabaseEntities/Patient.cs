@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Hospital_Management_System.Domain.DatabaseEntities;
 
-public partial class Patients
+public partial class Patient
 {
     public int Id { get; set; }
 
@@ -15,7 +15,9 @@ public partial class Patients
 
     public string Address { get; set; } = null!;
 
-    public virtual ICollection<Appointments> Appointments { get; set; } = new List<Appointments>();
+    public string IdentificationNumber { get; set; } = null!;
 
-    public virtual ICollection<Billings> Billings { get; set; } = new List<Billings>();
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+
+    public virtual ICollection<Billing> Billings { get; set; } = new List<Billing>();
 }
