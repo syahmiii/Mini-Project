@@ -15,7 +15,7 @@ namespace Hospital_Management_System.Application.Doctor.Query
     {
         public GetDoctorDtoProfile()
         {
-            CreateMap<Doctors, GetDoctorDto>()
+            CreateMap<Domain.DatabaseEntities.Doctor, GetDoctorDto>()
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.FullName))
                 .ForMember(dest => dest.Specialization, opt => opt.MapFrom(src => src.Specialty))
                 .ForMember(dest => dest.Number, opt => opt.MapFrom(src => src.ContactNumber));

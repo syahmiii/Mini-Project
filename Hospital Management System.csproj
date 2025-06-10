@@ -20,14 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Appointment\" />
+    <Folder Include="Application\Billing\Query\GetBill\" />
     <Folder Include="Domain\DatabaseEntities\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Configurations\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Users\User\source\repos\Mini Project\HospitalManagement.Databse\HospitalManagement.Databse.sqlproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Hospital_Management_System.Domain.DatabaseEntities;
 
-public partial class Appointments
+public partial class Appointment
 {
     public int Id { get; set; }
 
@@ -15,7 +15,7 @@ public partial class Appointments
 
     public string? Status { get; set; }
 
-    public virtual Doctors Doctor { get; set; } = null!;
+    public virtual Doctor Doctor { get; set; } = null!;
 
-    public virtual Patients Patient { get; set; } = null!;
+    public virtual Patient Patient { get; set; } = null!;
 }

@@ -1,4 +1,4 @@
-﻿namespace Hospital_Management_System.Application.Patient.Command
+﻿namespace Hospital_Management_System.Application.Patient.Command.AddPatient
 {
     public record AddPatientCommand
     {
@@ -20,7 +20,7 @@
         public async Task Handle(AddPatientCommand request, CancellationToken cancellationToken)
         {
 
-            Patients patient = new ()
+            Domain.DatabaseEntities.Patient patient = new()
             {
                 Name = request.FirstName,
                 Dob = request.DOB,

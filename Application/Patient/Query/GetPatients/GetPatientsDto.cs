@@ -12,7 +12,7 @@
     {
         public GetPatientsDtoProfile()
         {
-            CreateMap<Patients, GetPatientsDto>()
+            CreateMap<Domain.DatabaseEntities.Patient, GetPatientsDto>()
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
                 .ForMember(dest => dest.DateOfBirth, opt => opt.MapFrom(src => src.Dob ?? DateOnly.MinValue))
                 .ForMember(dest => dest.Address, opt => opt.MapFrom(src => src.Address));
