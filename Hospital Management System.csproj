@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Application\Billing\Query\GetBill\" />
-    <Folder Include="Domain\DatabaseEntities\" />
+    <Folder Include="Application\Stock\Query\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Configurations\" />
   </ItemGroup>
