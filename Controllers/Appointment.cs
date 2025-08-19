@@ -12,7 +12,6 @@ namespace Hospital_Management_System.Controllers
 
         public AppointmentController(IMediator mediator)
         {
-
             _mediator = mediator;
         }
 
