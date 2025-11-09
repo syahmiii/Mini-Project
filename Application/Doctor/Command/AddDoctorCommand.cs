@@ -1,13 +1,13 @@
 ﻿namespace Hospital_Management_System.Application.Doctor.Command
 {
-    public class AddDoctor
+    public class AddDoctorCommand
     {
         public string Name { get; set; } = string.Empty;
         public string Speciality { get; set; } = string.Empty;
         public string ContactNumber { get; set; } = string.Empty;
     }
 
-    public class AddDoctorCommandHandle : IRequest<AddDoctor>
+    public class AddDoctorCommandHandle : IRequest<AddDoctorCommand>
     {
         private readonly HospitalDbContext _dbContext;
 
@@ -16,7 +16,7 @@
             _dbContext = dbContext;
         }
 
-        public async Task Handle(AddDoctor request, CancellationToken cancellation)
+        public async Task Handle(AddDoctorCommand request, CancellationToken cancellation)
         {
             Domain.DatabaseEntities.Doctor doctor = new()
             {
